@@ -8,6 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface NumberPadView : UIView
+@protocol NumberPadDelegate <NSObject>
+- (void)didPressButton:(NSString*)strChar;
 
+@end
+@interface NumberPadView : UIView
+{
+  id<NumberPadDelegate>delegate;
+}
+@property(nonatomic,strong)id<NumberPadDelegate>delegate;
 @end

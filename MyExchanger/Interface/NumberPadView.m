@@ -9,23 +9,22 @@
 #import "NumberPadView.h"
 
 @implementation NumberPadView
+@synthesize delegate;
 
-- (id)initWithFrame:(CGRect)frame
+- (id)init
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        // Initialization code
+  NSArray * bundle = [[NSBundle mainBundle]loadNibNamed:@"NumberPadView" owner:self options:nil];
+  for(id object in bundle){
+    if([object isKindOfClass:[NumberPadView class]]){
+      NumberPadView * currPad= (NumberPadView*)object;
+      return currPad;
     }
-    return self;
+  }
+    return nil;
 }
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect
-{
-    // Drawing code
+-(IBAction)didTouchButton:(id)sender{
+  UIButton* button  = (UIButton*)sender;
+  [self.delegate didPressButton:button.titleLabel.text];
 }
-*/
-
 @end

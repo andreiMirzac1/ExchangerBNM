@@ -10,16 +10,15 @@
 #import "TBXML.h"
 
 @protocol  ParserDelegate <NSObject>
-
 - (void)didFinishParsing:(NSDictionary*)dictionary;
 @end
 
-@interface ParserXml : NSObject
-{
+@interface ParserXml : NSObject{
   TBXML* xmlParser;
   NSMutableDictionary* currencies;
   id<ParserDelegate>delegate;
 }
+
 @property(nonatomic,strong)NSMutableDictionary* currencies;
 @property(nonatomic,strong)id<ParserDelegate>delegate;
 - (void)parseXmlFromUrl:(NSURL*)url;

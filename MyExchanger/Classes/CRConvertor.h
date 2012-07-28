@@ -20,7 +20,7 @@
 
 //Added To header only for testing
 //Convertors 
-- (NSDecimalNumber*)convertAnyValToMD:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode;
-- (NSDecimalNumber*)convertFromMDToAny:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode;
-- (NSDecimalNumber*)convertValue:(NSDecimalNumber*)value fromCurency:(NSString*)from to:(NSString*)to;
+//- (NSDecimalNumber*)convertAnyValToMD:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode;
+//- (NSDecimalNumber*)convertFromMDToAny:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode;
+
 @end

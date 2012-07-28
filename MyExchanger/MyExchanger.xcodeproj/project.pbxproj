@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AA9839F1591128C00C6BD8B /* CurrencyPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA9839E1591128C00C6BD8B /* CurrencyPadView.m */; };
-		4AA983A2159112AF00C6BD8B /* CurrencyPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA983A1159112AF00C6BD8B /* CurrencyPadView.xib */; };
-		4AA983D61591258D00C6BD8B /* NumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AA983D51591258D00C6BD8B /* NumberPadView.m */; };
-		4AA983D8159125B400C6BD8B /* NumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4AA983D7159125B400C6BD8B /* NumberPadView.xib */; };
-		88187285158C79FE00AA8278 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 88187284158C79FE00AA8278 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		88187288158C7B1900AA8278 /* ParserXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 88187287158C7B1900AA8278 /* ParserXml.m */; };
-		88187289158C8C0A00AA8278 /* ParserXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 88187287158C7B1900AA8278 /* ParserXml.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		8818728A158C8C2300AA8278 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 88187284158C79FE00AA8278 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		882FCFEA1590CDF900DB4B93 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FCFE91590CDF900DB4B93 /* CommonMethods.m */; };
-		882FCFEB1590CDF900DB4B93 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 882FCFE91590CDF900DB4B93 /* CommonMethods.m */; };
+		4A206F71159314AB002DE8D0 /* ValuteValuePad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A206F70159314AA002DE8D0 /* ValuteValuePad.m */; };
+		4A206F73159314BB002DE8D0 /* ValuteValuePad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A206F72159314BB002DE8D0 /* ValuteValuePad.xib */; };
+		4A206F8615933A3B002DE8D0 /* CRConvertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123D01592FC2800F66573 /* CRConvertor.m */; };
+		4A4123E51592FC3E00F66573 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123E41592FC3E00F66573 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4A4123E61592FC3E00F66573 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123E41592FC3E00F66573 /* TBXML.m */; };
+		4A4123E81592FE3100F66573 /* CRParserXml.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123D21592FC2800F66573 /* CRParserXml.m */; };
+		4A4123F51592FFB700F66573 /* CurrencyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123F41592FFB700F66573 /* CurrencyView.m */; };
+		4A4123F8159300EA00F66573 /* NumberPadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123F7159300EA00F66573 /* NumberPadView.m */; };
+		4A4123FA159300FF00F66573 /* NumberPadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A4123F9159300FF00F66573 /* NumberPadView.xib */; };
+		4A4124061593041700F66573 /* CommonMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A4123D61592FC2800F66573 /* CommonMethods.m */; };
 		8881BAF0158B927F00D31F99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881BAEF158B927F00D31F99 /* UIKit.framework */; };
 		8881BAF2158B927F00D31F99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881BAF1158B927F00D31F99 /* Foundation.framework */; };
 		8881BAF4158B927F00D31F99 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881BAF3158B927F00D31F99 /* CoreGraphics.framework */; };
@@ -32,23 +32,25 @@
 		8881BB1C158B92AB00D31F99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881BB1B158B92AB00D31F99 /* main.m */; };
 		8881BB25158B92C200D31F99 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8881BB24158B92C200D31F99 /* GHUnitIOS.framework */; };
 		8881BB30158B9F0A00D31F99 /* testXmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 8881BB2F158B9F0A00D31F99 /* testXmlParser.m */; };
-		8882EE9E158F38DC004C0749 /* Convertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882EE9D158F38DC004C0749 /* Convertor.m */; };
-		8882EE9F158F38DC004C0749 /* Convertor.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882EE9D158F38DC004C0749 /* Convertor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4AA9839D1591128C00C6BD8B /* CurrencyPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CurrencyPadView.h; path = Interface/CurrencyPadView.h; sourceTree = "<group>"; };
-		4AA9839E1591128C00C6BD8B /* CurrencyPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CurrencyPadView.m; path = Interface/CurrencyPadView.m; sourceTree = "<group>"; };
-		4AA983A1159112AF00C6BD8B /* CurrencyPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrencyPadView.xib; sourceTree = "<group>"; };
-		4AA983D41591258D00C6BD8B /* NumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NumberPadView.h; path = Classes/NumberPadView.h; sourceTree = "<group>"; };
-		4AA983D51591258D00C6BD8B /* NumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NumberPadView.m; path = Classes/NumberPadView.m; sourceTree = "<group>"; };
-		4AA983D7159125B400C6BD8B /* NumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadView.xib; sourceTree = "<group>"; };
-		88187283158C79F300AA8278 /* TBXML.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
-		88187284158C79FE00AA8278 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
-		88187286158C7B1900AA8278 /* ParserXml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ParserXml.h; path = Classes/ParserXml.h; sourceTree = "<group>"; };
-		88187287158C7B1900AA8278 /* ParserXml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ParserXml.m; path = Classes/ParserXml.m; sourceTree = "<group>"; };
-		882FCFE81590CDF900DB4B93 /* CommonMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
-		882FCFE91590CDF900DB4B93 /* CommonMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
+		4A206F6F159314AA002DE8D0 /* ValuteValuePad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValuteValuePad.h; sourceTree = "<group>"; };
+		4A206F70159314AA002DE8D0 /* ValuteValuePad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ValuteValuePad.m; sourceTree = "<group>"; };
+		4A206F72159314BB002DE8D0 /* ValuteValuePad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ValuteValuePad.xib; sourceTree = "<group>"; };
+		4A4123CF1592FC2800F66573 /* CRConvertor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRConvertor.h; sourceTree = "<group>"; };
+		4A4123D01592FC2800F66573 /* CRConvertor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRConvertor.m; sourceTree = "<group>"; };
+		4A4123D11592FC2800F66573 /* CRParserXml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CRParserXml.h; path = Classes/CRParserXml.h; sourceTree = "<group>"; };
+		4A4123D21592FC2800F66573 /* CRParserXml.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CRParserXml.m; path = Classes/CRParserXml.m; sourceTree = "<group>"; };
+		4A4123D51592FC2800F66573 /* CommonMethods.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonMethods.h; sourceTree = "<group>"; };
+		4A4123D61592FC2800F66573 /* CommonMethods.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonMethods.m; sourceTree = "<group>"; };
+		4A4123E31592FC3E00F66573 /* TBXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBXML.h; sourceTree = "<group>"; };
+		4A4123E41592FC3E00F66573 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
+		4A4123F31592FFB700F66573 /* CurrencyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrencyView.h; sourceTree = "<group>"; };
+		4A4123F41592FFB700F66573 /* CurrencyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrencyView.m; sourceTree = "<group>"; };
+		4A4123F6159300EA00F66573 /* NumberPadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberPadView.h; sourceTree = "<group>"; };
+		4A4123F7159300EA00F66573 /* NumberPadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberPadView.m; sourceTree = "<group>"; };
+		4A4123F9159300FF00F66573 /* NumberPadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NumberPadView.xib; sourceTree = "<group>"; };
 		8881BAEB158B927F00D31F99 /* MyExchanger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyExchanger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8881BAEF158B927F00D31F99 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8881BAF1158B927F00D31F99 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -69,8 +71,6 @@
 		8881BB1D158B92AB00D31F99 /* GHUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GHUnitTest-Prefix.pch"; sourceTree = "<group>"; };
 		8881BB24158B92C200D31F99 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GHUnitIOS.framework; sourceTree = "<group>"; };
 		8881BB2F158B9F0A00D31F99 /* testXmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testXmlParser.m; sourceTree = "<group>"; };
-		8882EE9C158F38DC004C0749 /* Convertor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Convertor.h; path = Classes/Convertor.h; sourceTree = "<group>"; };
-		8882EE9D158F38DC004C0749 /* Convertor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Convertor.m; path = Classes/Convertor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +98,49 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A4123CE1592FC2800F66573 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4A4123CF1592FC2800F66573 /* CRConvertor.h */,
+				4A4123D01592FC2800F66573 /* CRConvertor.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4A4123D71592FC3100F66573 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4A4123F31592FFB700F66573 /* CurrencyView.h */,
+				4A4123F41592FFB700F66573 /* CurrencyView.m */,
+				4A4123F6159300EA00F66573 /* NumberPadView.h */,
+				4A4123F7159300EA00F66573 /* NumberPadView.m */,
+				4A4123F9159300FF00F66573 /* NumberPadView.xib */,
+				4A206F6F159314AA002DE8D0 /* ValuteValuePad.h */,
+				4A206F70159314AA002DE8D0 /* ValuteValuePad.m */,
+				4A206F72159314BB002DE8D0 /* ValuteValuePad.xib */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4A4123E71592FC4A00F66573 /* CRParser */ = {
+			isa = PBXGroup;
+			children = (
+				4A4123D11592FC2800F66573 /* CRParserXml.h */,
+				4A4123D21592FC2800F66573 /* CRParserXml.m */,
+				4A4123E31592FC3E00F66573 /* TBXML.h */,
+				4A4123E41592FC3E00F66573 /* TBXML.m */,
+			);
+			name = CRParser;
+			sourceTree = "<group>";
+		};
 		8881BAE0158B927F00D31F99 = {
 			isa = PBXGroup;
 			children = (
-				882FCFE81590CDF900DB4B93 /* CommonMethods.h */,
-				882FCFE91590CDF900DB4B93 /* CommonMethods.m */,
-				8883D5C51590BA9D00E83837 /* Interface */,
-				8881BB26158B93D100D31F99 /* Classes */,
+				4A4123D51592FC2800F66573 /* CommonMethods.h */,
+				4A4123D61592FC2800F66573 /* CommonMethods.m */,
+				4A4123E71592FC4A00F66573 /* CRParser */,
+				4A4123D71592FC3100F66573 /* Interface */,
+				4A4123CE1592FC2800F66573 /* Classes */,
 				8881BAF5158B927F00D31F99 /* MyExchanger */,
 				8881BB15158B92AB00D31F99 /* GHUnitTest */,
 				8881BAEE158B927F00D31F99 /* Frameworks */,
@@ -174,40 +210,6 @@
 				8881BB2F158B9F0A00D31F99 /* testXmlParser.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8881BB26158B93D100D31F99 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8882EE9C158F38DC004C0749 /* Convertor.h */,
-				8882EE9D158F38DC004C0749 /* Convertor.m */,
-				8882EEA1158F38E9004C0749 /* Parser */,
-			);
-			name = Classes;
-			sourceTree = "<group>";
-		};
-		8882EEA1158F38E9004C0749 /* Parser */ = {
-			isa = PBXGroup;
-			children = (
-				88187283158C79F300AA8278 /* TBXML.h */,
-				88187284158C79FE00AA8278 /* TBXML.m */,
-				88187286158C7B1900AA8278 /* ParserXml.h */,
-				88187287158C7B1900AA8278 /* ParserXml.m */,
-			);
-			name = Parser;
-			sourceTree = "<group>";
-		};
-		8883D5C51590BA9D00E83837 /* Interface */ = {
-			isa = PBXGroup;
-			children = (
-				4AA9839D1591128C00C6BD8B /* CurrencyPadView.h */,
-				4AA9839E1591128C00C6BD8B /* CurrencyPadView.m */,
-				4AA983A1159112AF00C6BD8B /* CurrencyPadView.xib */,
-				4AA983D41591258D00C6BD8B /* NumberPadView.h */,
-				4AA983D51591258D00C6BD8B /* NumberPadView.m */,
-				4AA983D7159125B400C6BD8B /* NumberPadView.xib */,
-			);
-			name = Interface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,8 +283,8 @@
 			files = (
 				8881BAFA158B927F00D31F99 /* InfoPlist.strings in Resources */,
 				8881BB06158B927F00D31F99 /* MainViewController.xib in Resources */,
-				4AA983A2159112AF00C6BD8B /* CurrencyPadView.xib in Resources */,
-				4AA983D8159125B400C6BD8B /* NumberPadView.xib in Resources */,
+				4A4123FA159300FF00F66573 /* NumberPadView.xib in Resources */,
+				4A206F73159314BB002DE8D0 /* ValuteValuePad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,15 +303,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A206F8615933A3B002DE8D0 /* CRConvertor.m in Sources */,
+				4A4124061593041700F66573 /* CommonMethods.m in Sources */,
+				4A4123E81592FE3100F66573 /* CRParserXml.m in Sources */,
 				8881BAFC158B927F00D31F99 /* main.m in Sources */,
 				8881BB00158B927F00D31F99 /* MainAppDelegate.m in Sources */,
 				8881BB03158B927F00D31F99 /* MainViewController.m in Sources */,
-				88187285158C79FE00AA8278 /* TBXML.m in Sources */,
-				88187288158C7B1900AA8278 /* ParserXml.m in Sources */,
-				8882EE9E158F38DC004C0749 /* Convertor.m in Sources */,
-				882FCFEA1590CDF900DB4B93 /* CommonMethods.m in Sources */,
-				4AA9839F1591128C00C6BD8B /* CurrencyPadView.m in Sources */,
-				4AA983D61591258D00C6BD8B /* NumberPadView.m in Sources */,
+				4A4123E51592FC3E00F66573 /* TBXML.m in Sources */,
+				4A4123F51592FFB700F66573 /* CurrencyView.m in Sources */,
+				4A4123F8159300EA00F66573 /* NumberPadView.m in Sources */,
+				4A206F71159314AB002DE8D0 /* ValuteValuePad.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,12 +320,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8818728A158C8C2300AA8278 /* TBXML.m in Sources */,
-				88187289158C8C0A00AA8278 /* ParserXml.m in Sources */,
 				8881BB1C158B92AB00D31F99 /* main.m in Sources */,
 				8881BB30158B9F0A00D31F99 /* testXmlParser.m in Sources */,
-				8882EE9F158F38DC004C0749 /* Convertor.m in Sources */,
-				882FCFEB1590CDF900DB4B93 /* CommonMethods.m in Sources */,
+				4A4123E61592FC3E00F66573 /* TBXML.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +407,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyExchanger/MyExchanger-Prefix.pch";
 				INFOPLIST_FILE = "MyExchanger/MyExchanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -418,6 +419,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MyExchanger/MyExchanger-Prefix.pch";
 				INFOPLIST_FILE = "MyExchanger/MyExchanger-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "ParserXml.h"
+#import "CRParserXml.h"
 
 @implementation ParserXml
 @synthesize delegate;
@@ -32,6 +32,10 @@
      
      valuteElement=valuteElement->nextSibling;
    }
+  NSDictionary* mdDict =  [[NSDictionary alloc]
+                           initWithObjectsAndKeys:@"MD",@"CharCode",@"1",@"Nominal",@"1",@"Value",@"Leu",@"Name",nil];
+    [currencies setObject:mdDict forKey:@"MD"];
+     
    NSLog(@"call delegate method");
    dispatch_sync(dispatch_get_main_queue(), ^{
    [self.delegate didFinishParsing:currencies];  

@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "Convertor.h"
+#import "CRConvertor.h"
 
 @implementation Convertor
 
@@ -37,7 +37,7 @@
   NSDecimalNumber* mdValue =[self convertAnyValToMD:value charCode:from];
   NSDecimalNumber* selectedVal =[self convertFromMDToAny:mdValue charCode:to];
   
-  return selectedVal;
+  return [self round:selectedVal];
 }
 
 - (NSDecimalNumber*)convertAnyValToMD:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode{
@@ -47,5 +47,16 @@
 - (NSDecimalNumber*)convertFromMDToAny:(NSDecimalNumber*)amountVal charCode:(NSString*)charCode{
   NSDecimalNumber* amountUnit =[self curencyValueFrom:charCode];
   return [amountVal decimalNumberByDividingBy:amountUnit];
+}
+
+- (NSDecimalNumber*)round:(NSDecimalNumber*)number{
+NSDecimalNumberHandler *handler = [NSDecimalNumberHandler decimalNumberHandlerWithRoundingMode:NSRoundPlain
+                                                                                         scale:3
+                                                                              raiseOnExactness:NO
+                                                                               raiseOnOverflow:NO
+                                                                              raiseOnUnderflow:NO
+                                                                           raiseOnDivideByZero:NO];
+  NSDecimalNumber *result = [number decimalNumberByRoundingAccordingToBehavior:handler];
+  return result;
 }
 @end

@@ -10,5 +10,8 @@
 
 @interface CommonMethods : NSObject
 
-+ (NSString*)getDateNow;
+
++ (NSString*)getDate:(NSDate*)date;
+
++ (void)hide:(BOOL)hideView view:(UIView*)view animate:(BOOL)animate;
 @end

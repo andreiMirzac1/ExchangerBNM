@@ -7,11 +7,25 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ParserXml.h"
+#import "CRParserXml.h"
+#import "NumberPadView.h"
+#import "CurrencyView.h"
+#import "ValuteValuePad.h"
+#import "CRConvertor.h"
 
-@interface MainViewController : UIViewController<ParserDelegate>
-{
+@interface MainViewController : UIViewController<ParserDelegate,CurrencyDelegate,ValuePadDelegate,UITextFieldDelegate>{
   ParserXml * parser;
+  NumberPadView * numberPad ;
+  CurrencyView * currency;
+  ValuteValuePad * valutePad;
+  Convertor * convertor;
+  
+  NSString* currCurrency1;
+  NSString* currCurrency2;
+  NSString* value1;
+  
+  IBOutlet UITextField * dateTextField;
+  IBOutlet UIDatePicker * datePicker;
 }
 
 @end
