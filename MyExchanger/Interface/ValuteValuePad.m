@@ -1,14 +1,14 @@
 //
-//  CRCalculatorView.m
+//  ValuteValuePad.m
 //  MyExchanger
 //
-//  Created by iMac on 6/20/12.
+//  Created by Mirzac Andrei on 21.06.12.
 //  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
 //
 
-#import "CRCalculatorView.h"
+#import "ValuteValuePad.h"
 
-@implementation CRCalculatorView
+@implementation ValuteValuePad
 
 - (id)initWithFrame:(CGRect)frame
 {
